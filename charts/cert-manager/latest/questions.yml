@@ -9,7 +9,7 @@ questions:
   group: "Container Images"
   subquestions:
   - variable: image.repository
-    default: "192.168.36.252/x86app/cert-manager-controller"
+    default: "hub.i-soft.con.cn:5080/x86app/cert-manager-controller"
     description: "Cert-Manager Docker image name"
     type: string
     label: Cert-Manager Docker Image Name

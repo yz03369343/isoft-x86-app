@@ -12,7 +12,7 @@ updateStrategy:
 podAnnotations: {}
 
 image:
-  repository: 192.168.36.252/x86app/registry
+  repository: hub.i-soft.con.cn:5080/x86app/registry
   tag: 2.6.2
   pullPolicy: IfNotPresent
 # imagePullSecrets:

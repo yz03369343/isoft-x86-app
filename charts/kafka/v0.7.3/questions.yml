@@ -8,7 +8,7 @@ questions:
   group: "Container Images"
   subquestions:
   - variable: image
-    default: "192.168.36.252/x86app/cp-kafka"
+    default: "hub.i-soft.con.cn:5080/x86app/cp-kafka"
     description: "Kafka image name"
     type: string
     label: Kafka Image Name
@@ -18,7 +18,7 @@ questions:
     type: string
     label: Kafka Image Tag
   - variable: zookeeper.image.repository
-    default: "192.168.36.252/x86app/cp-zookeeper"
+    default: "hub.i-soft.con.cn:5080/x86app/cp-zookeeper"
     description: "Zookeeper image name"
     type: string
     label: Zookeeper Image Name
@@ -28,7 +28,7 @@ questions:
     type: string
     label: Zookeeper Image Tag
   - variable: schema-registry.image
-    default: "192.168.36.252/x86app/cp-schema-registry"
+    default: "hub.i-soft.con.cn:5080/x86app/cp-schema-registry"
     description: "Kafka schema registry image name"
     type: string
     label: Kafka Schema-Registry Image Name
@@ -38,7 +38,7 @@ questions:
     type: string
     label: Kafka Schema-Registry Image Tag
   - variable: kafka-rest.image.repository
-    default: "192.168.36.252/x86app/cp-kafka-rest"
+    default: "hub.i-soft.con.cn:5080/x86app/cp-kafka-rest"
     description: "Kafka-REST image name"
     type: string
     label: Kafka-REST Image Name
@@ -48,7 +48,7 @@ questions:
     type: string
     label: Kafka-REST Image Tag
   - variable: kafka-topics-ui.image.repository
-    default: "192.168.36.252/x86app/kafka-topics-ui"
+    default: "hub.i-soft.con.cn:5080/x86app/kafka-topics-ui"
     description: "kafka-topics-ui image name"
     type: string
     label: Kafka-Topics-UI Image Name

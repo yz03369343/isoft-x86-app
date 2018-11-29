@@ -9,7 +9,7 @@ questions:
   group: "Container Images"
   subquestions:
   - variable: image.repository
-    default: "192.168.36.252/x86app/phpbb"
+    default: "hub.i-soft.con.cn:5080/x86app/phpbb"
     description: "phpBB image name"
     type: string
     label: phpBB Image Name
@@ -19,7 +19,7 @@ questions:
     type: string
     label: Image Tag
   - variable: mariadb.image.repository
-    default: "192.168.36.252/x86app/mariadb"
+    default: "hub.i-soft.con.cn:5080/x86app/mariadb"
     description: "phpBB image name"
     type: string
     label: phpBB Image Name

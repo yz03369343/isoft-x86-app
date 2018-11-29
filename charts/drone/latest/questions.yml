@@ -10,7 +10,7 @@ questions:
   group: "Container Images"
   subquestions:
   - variable: images.server.repository
-    default: "192.168.36.252/x86app/drone"
+    default: "hub.i-soft.con.cn:5080/x86app/drone"
     description: "Drone Server image name"
     type: string
     label: Drone Server Image Name
@@ -20,7 +20,7 @@ questions:
     type: string
     label: Drone Server Image Tag
   - variable: images.agent.repository
-    default: "192.168.36.252/x86app/agent"
+    default: "hub.i-soft.con.cn:5080/x86app/agent"
     description: "Drone Agent image name"
     type: string
     label: Drone Agent Image Name
@@ -30,7 +30,7 @@ questions:
     type: string
     label: Drone Agent Image Tag
   - variable: images.dind.repository
-    default: "192.168.36.252/x86app/docker"
+    default: "hub.i-soft.con.cn:5080/x86app/docker"
     description: "Drone Dind image name"
     type: string
     label: Drone Dind Image Name

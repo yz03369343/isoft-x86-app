@@ -231,7 +231,7 @@ initChownData:
   ## initChownData container image
   ##
   image:
-    repository: 192.168.36.252/x86app/busybox
+    repository: hub.i-soft.con.cn:5080/x86app/busybox
     tag: latest
     pullPolicy: IfNotPresent
 

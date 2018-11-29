@@ -10,7 +10,7 @@ questions:
   group: "Container Images"
   subquestions:
   - variable: image.repository
-    default: "192.168.36.252/x86app/grafana"
+    default: "hub.i-soft.con.cn:5080/x86app/grafana"
     description: "Grafana image name"
     type: string
     label: Grafana Image Name
@@ -20,7 +20,7 @@ questions:
     type: string
     label: Grafana Image Tag
   - variable: grafanaWatcher.image.repository
-    default: "192.168.36.252/x86app/curl"
+    default: "hub.i-soft.con.cn:5080/x86app/curl"
     description: "Grafana Watcher image name"
     type: string
     label: Grafana Watcher Image Name

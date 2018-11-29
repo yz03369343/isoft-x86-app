@@ -11,7 +11,7 @@ questions:
   group: "Container Images"
   subquestions:
   - variable: image.repository
-    default: "192.168.36.252/x86app/redis"
+    default: "hub.i-soft.con.cn:5080/x86app/redis"
     description: "Redis image name"
     type: string
     label: Redis Image Name
@@ -21,7 +21,7 @@ questions:
     type: string
     label: Redis Image Tag
   - variable: metrics.image.repository
-    default: "192.168.36.252/x86app/redis_exporter"
+    default: "hub.i-soft.con.cn:5080/x86app/redis_exporter"
     description: "Metrics image name"
     type: string
     label: Metrics Image Name
