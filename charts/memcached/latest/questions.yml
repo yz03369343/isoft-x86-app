@@ -10,7 +10,7 @@ questions:
   group: "Container Images"
   subquestions:
   - variable: image
-    default: "hub.i-soft.con.cn:5080/x86app/memcached"
+    default: "hub.i-soft.com.cn:5080/x86app/memcached"
     description: "Memcached Docker image"
     type: string
     label: Memcached Docker Image

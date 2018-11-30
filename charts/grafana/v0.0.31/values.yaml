@@ -69,11 +69,11 @@ service:
 ## Grafana Docker image
 ##
 image:
-  repository: hub.i-soft.con.cn:5080/x86app/grafana
+  repository: hub.i-soft.com.cn:5080/x86app/grafana
   tag: 5.0.0
 
 grafanaWatcher:
-  repository: hub.i-soft.con.cn:5080/x86app/grafana-watcher
+  repository: hub.i-soft.com.cn:5080/x86app/grafana-watcher
   tag: v0.0.8
 
 persistence:

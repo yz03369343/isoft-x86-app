@@ -10,7 +10,7 @@ questions:
   group: "Container Images"
   subquestions:
   - variable: vaultOperator.image.repository
-    default: "hub.i-soft.con.cn:5080/x86app/vault-operator"
+    default: "hub.i-soft.com.cn:5080/x86app/vault-operator"
     description: "Vault image name"
     type: string
     label: Vault Operator Image Name
@@ -20,7 +20,7 @@ questions:
     type: string
     label: Vault Operator Image Tag
   - variable: ui.image.repository
-    default: "hub.i-soft.con.cn:5080/x86app/vault-ui"
+    default: "hub.i-soft.com.cn:5080/x86app/vault-ui"
     description: "Vault image name"
     type: string
     label: Vault UI Image Name
@@ -30,7 +30,7 @@ questions:
     type: string
     label: Vault UI Image Tag
   - variable: etcd.image.repository
-    default: "hub.i-soft.con.cn:5080/x86app/etcd-operator"
+    default: "hub.i-soft.com.cn:5080/x86app/etcd-operator"
     description: "etcd image name"
     type: string
     label: etcd Image Name
