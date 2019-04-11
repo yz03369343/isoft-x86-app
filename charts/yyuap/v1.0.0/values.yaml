@@ -1,0 +1,10 @@
+image:
+  repository: hub.i-soft.com.cn:5080/lxapp/yyuap
+  tag: v1.0.0
+  pullPolicy: IfNotPresent
+
+hostpath:
+  path: /data/yyuap
+
+nodePort:
+  port:

@@ -1,0 +1,27 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: {{ template "yyuap.fullname" . }}
+spec:
+  template:
+    metadata:
+      labels:
+        app: {{ template "yyuap.name" . }}
+        release: "{{ .Release.Name }}"
+    spec:
+      containers:
+        - name: yyuap
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy | quote }}
+          ports:
+          - containerPort: 8888
+          volumeMounts:
+          - name: {{ template "yyuap.fullname" . }}
+            mountPath: /var/lib/mysql
+      volumes:
+       - name: {{ template "yyuap.fullname" . }}
+         hostPath:
+           path: {{ .Values.hostpath.path }} 
+
+     
+
